@@ -59,6 +59,8 @@ h1 {
 	border-top: 5px solid black;
 	display: flex;
 	flex-wrap: wrap;
+	background-color: #4d4f54;
+	color: white;
 }
 .footer div {
 	min-width: 250px;
@@ -84,5 +86,9 @@ h1 {
 	flex-direction: column;
 	flex-wrap: wrap;
 	font-size: 20px;
+}
+.footer .address p:nth-of-type(2) {
+	padding: 0;
+	margin: 0;
 }
 
